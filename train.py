@@ -139,7 +139,7 @@ def get_args():
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
     args = get_args()
-    e = 5
+    e = 30
     b = 1
     l = 0.1
     f = False
