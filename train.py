@@ -18,8 +18,8 @@ from unet import UNet
 from dataset import *
 from torch.utils.data import DataLoader, random_split
 
-dir_img = '/kaggle/input/colony/imgs/imgs/'
-dir_mask = 'kaggle/input/colony/masks/masks'
+dir_img ='/kaggle/input/colony/imgs/imgs/'#'./data/imgs/'
+dir_mask = 'kaggle/input/colony/masks/masks/'#'./data/masks/'
 dir_checkpoint = 'checkpoints/'
 
 
